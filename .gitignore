@@ -2,3 +2,50 @@
 .idea/
 *.iml
 .DS_Store
+
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Raw factsheets
+data/raw/pdfs/*
+!data/raw/pdfs/.gitkeep
+
+# Processed data
+data/processed/*
+!data/processed/.gitkeep
+
+# Databases
+data/database/*
+!data/database/.gitkeep
+
+# Vector database
+chroma_db/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
